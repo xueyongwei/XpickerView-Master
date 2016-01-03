@@ -13,6 +13,7 @@
 		478196381C3822E900C1D39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478196361C3822E900C1D39A /* Main.storyboard */; };
 		4781963A1C3822E900C1D39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478196391C3822E900C1D39A /* Assets.xcassets */; };
 		4781963D1C3822E900C1D39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4781963B1C3822E900C1D39A /* LaunchScreen.storyboard */; };
+		478196471C38230600C1D39A /* XpickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 478196461C38230600C1D39A /* XpickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		478196391C3822E900C1D39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4781963C1C3822E900C1D39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4781963E1C3822E900C1D39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478196451C38230600C1D39A /* XpickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XpickView.h; sourceTree = "<group>"; };
+		478196461C38230600C1D39A /* XpickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XpickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4781962C1C3822E900C1D39A /* xPickerView-Master */ = {
 			isa = PBXGroup;
 			children = (
+				478196441C38230600C1D39A /* XpickerView */,
 				478196301C3822E900C1D39A /* AppDelegate.h */,
 				478196311C3822E900C1D39A /* AppDelegate.m */,
 				478196331C3822E900C1D39A /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4781962E1C3822E900C1D39A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478196441C38230600C1D39A /* XpickerView */ = {
+			isa = PBXGroup;
+			children = (
+				478196451C38230600C1D39A /* XpickView.h */,
+				478196461C38230600C1D39A /* XpickView.m */,
+			);
+			path = XpickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478196471C38230600C1D39A /* XpickView.m in Sources */,
 				478196351C3822E900C1D39A /* ViewController.m in Sources */,
 				478196321C3822E900C1D39A /* AppDelegate.m in Sources */,
 				4781962F1C3822E900C1D39A /* main.m in Sources */,
