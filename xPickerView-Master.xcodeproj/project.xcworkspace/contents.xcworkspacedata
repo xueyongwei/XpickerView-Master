@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:xPickerView-Master.xcodeproj">
+      location = "self:/Users/xueyongwei/Desktop/xPickerView-Master/XpickerView-Master.xcodeproj">
    </FileRef>
 </Workspace>

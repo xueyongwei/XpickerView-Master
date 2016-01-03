@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4781962A1C3822E900C1D39A /* xPickerView-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xPickerView-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4781962A1C3822E900C1D39A /* XpickerView-Master.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XpickerView-Master.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4781962E1C3822E900C1D39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		478196301C3822E900C1D39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		478196311C3822E900C1D39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		478196211C3822E900C1D39A = {
 			isa = PBXGroup;
 			children = (
-				4781962C1C3822E900C1D39A /* xPickerView-Master */,
+				4781962C1C3822E900C1D39A /* XpickerView-Master */,
 				4781962B1C3822E900C1D39A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		4781962B1C3822E900C1D39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4781962A1C3822E900C1D39A /* xPickerView-Master.app */,
+				4781962A1C3822E900C1D39A /* XpickerView-Master.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4781962C1C3822E900C1D39A /* xPickerView-Master */ = {
+		4781962C1C3822E900C1D39A /* XpickerView-Master */ = {
 			isa = PBXGroup;
 			children = (
 				478196441C38230600C1D39A /* XpickerView */,
@@ -72,6 +72,7 @@
 				4781963E1C3822E900C1D39A /* Info.plist */,
 				4781962D1C3822E900C1D39A /* Supporting Files */,
 			);
+			name = "XpickerView-Master";
 			path = "xPickerView-Master";
 			sourceTree = "<group>";
 		};
@@ -109,7 +110,7 @@
 			);
 			name = "xPickerView-Master";
 			productName = "xPickerView-Master";
-			productReference = 4781962A1C3822E900C1D39A /* xPickerView-Master.app */;
+			productReference = 4781962A1C3822E900C1D39A /* XpickerView-Master.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 478196251C3822E900C1D39A /* Build configuration list for PBXProject "xPickerView-Master" */;
+			buildConfigurationList = 478196251C3822E900C1D39A /* Build configuration list for PBXProject "XpickerView-Master" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -278,7 +279,7 @@
 				INFOPLIST_FILE = "xPickerView-Master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pub.xyw.xPickerView-Master";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XpickerView-Master.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -289,14 +290,14 @@
 				INFOPLIST_FILE = "xPickerView-Master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pub.xyw.xPickerView-Master";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XpickerView-Master.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		478196251C3822E900C1D39A /* Build configuration list for PBXProject "xPickerView-Master" */ = {
+		478196251C3822E900C1D39A /* Build configuration list for PBXProject "XpickerView-Master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4781963F1C3822E900C1D39A /* Debug */,
@@ -312,6 +313,7 @@
 				478196431C3822E900C1D39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
