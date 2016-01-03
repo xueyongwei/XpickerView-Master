@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # xPickerView-Master
 alloc init之后通过
 - (void)setDateViewWithTitle:(NSString *)title
@@ -22,3 +23,6 @@ withBlock:(XPickViewSubmit)block;
 数据选取器可设置一下属性
 //设置是否需要返回是数组第几个,若为yes返回：下标#内容
 @property (nonatomic,assign)BOOL Xflag;
+=======
+# XpickerView-Master
+>>>>>>> origin/master
